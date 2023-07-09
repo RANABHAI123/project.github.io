@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+            body {
+                min-height: 80vh;
+                background: url("https://digitshack.com/codepen/bmical/bg.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                font-family: Arial, sans-serif;
+                overflow-x: hidden;
+            }
+
+            .button-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 15vh;
+            }
+
+            .button-container a {
+                text-decoration:none;
+                margin-bottom: 50px;
+            }
+
+            .button-container button {
+                padding: 10px 20px;
+                font-size: 18px;
+                color: blanchedalmond;
+                background-color: #18da18;
+                border: dotted;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 24px;
+                font-weight: bold;
+            
+
+            }
+
+            .button-container button:hover {
+                background-color: #707782;
+            }
+            .text{
+                text-decoration: double;
+                text-align: center;
+                text-transform: capitalize;
+                font-size: 48px;
+                color: rgb(168, 64, 175);
+                font-style: italic;
+                margin-top: 10vh;
+                text-decoration:underline;
+            }
+    </style>
+</head>
+
+<body>
+
+   <p class="text">YOU BELONG TO WHICH CATEGORY</p>
+    <div class="button-container">
+        <a href="/nextPage1"><button>Underweight</button></a>
+        <a href="/nextPage2"><button>Overweight</button></a>
+        <a href="/nextPage3"><button>Obese</button></a>
+        <a href="/nextPage4"><button>Healthy</button></a>
+    </div>
+
+
+
+</body>
+
+</html>
